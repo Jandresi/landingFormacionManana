@@ -1,0 +1,110 @@
+/* GENERALES */
+body {
+    font-family: sans-serif;
+}
+
+.fondo_azul_oscuro {
+    background-color: #152B41;
+}
+
+.fondo_azul_claro {
+    background-color: #D4EAFA;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.border_12 {
+    border-radius: 12px;
+}
+
+.card_article {
+    background-color: #FEFEFE;
+    min-width: 250px;
+    min-height: 171px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    padding: 0 24px;
+    margin-bottom: 8px;
+}
+
+.logo_header img {
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.titulo_colegio {
+    text-align: left;
+}
+
+.titulo_colegio h1 {
+    color: #FFF;
+    font-weight: 300;
+}
+
+/* MAIN */
+main, footer {
+    padding: 12px 24px;
+}
+
+.ninos_felices img{
+    width: 100%;
+}
+
+.subtl_desarrollamos {
+    margin: 2em 0;
+    font-size: large;
+}
+
+.espacios_formacion_box {
+    margin: 2em 0;
+    padding: 12px;
+}
+
+.espacios_formacion_container_cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card_article img {
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+}
+
+.nosotros_box {
+    margin: 2em 0;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .titulo_colegio {
+    font-size: small;
+}
+
+.contactenos_box {
+    color: #FFF;
+}
+
+.contactenos_box h5, .contactenos_box h4 {
+    margin: 1em 0;
+}
