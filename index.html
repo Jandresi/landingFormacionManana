@@ -10,12 +10,12 @@
 <body class="bg-light">
     <header class="fondo_azul_oscuro mb-3">
         <div class="d-flex justify-content-center align-items-center g-4">
-            <div class="logo_header">
+            <a class="logo_header" href="./index.html">
                 <img src="assets/img/logo_isotipo.png" alt="Logo formacion mañana" loading="lazy">
-            </div>
-            <div class="text-start ms-3">
+            </a>
+            <a class="text-start ms-3" href="./index.html">
                 <h1 class="text-center text-white fs-2">COLEGIO TÉCNICO INDUSTRIAL<br>FORMACIÓN DEL MAÑANA</h1>
-            </div>
+            </a>
         </div>
     </header>
 
@@ -32,7 +32,10 @@
             <div class="card-body fondo_azul_claro d-flex justify-content-around flex-wrap">
                 <h2 class="mb-3 col-12">Conoce nuestros espacios de formación</h2>
                 <div class="col-12 col-md-5 col-lg-3 p-2">
-                    <article class="card">
+                    <article class="card card-ver-mas">
+                        <a class="hover-ver-mas" href="./preescolar.html">
+                            <div class="text-ver-mas">Ver más</div>
+                        </a>
                         <img src="assets/img/formacion_preescolar.webp" class="card-img-top" loading="lazy">
                         <div class="card-body">
                             <h5 class="card-title w-100 text-center fs-4">Preescolar</h5>
@@ -40,7 +43,10 @@
                     </article>
                 </div>
                 <div class="col-12 col-md-5 col-lg-3 p-2">
-                    <article class="card">
+                    <article class="card card-ver-mas">
+                        <a class="hover-ver-mas" href="./primaria.html">
+                            <div class="text-ver-mas">Ver más</div>
+                        </a>
                         <img src="assets/img/formacion_primaria.webp" class="card-img-top" loading="lazy">
                         <div class="card-body">
                             <h5 class="card-title w-100 text-center fs-4">Básica primaria</h5>
@@ -48,7 +54,10 @@
                     </article>
                 </div>
                 <div class="col-12 col-md-5 col-lg-3 p-2">
-                    <article class="card">
+                    <article class="card card-ver-mas">
+                        <a class="hover-ver-mas" href="./bachillerato.html">
+                            <div class="text-ver-mas">Ver más</div>
+                        </a>
                         <img src="assets/img/formacion_bachillerato.webp" class="card-img-top" loading="lazy">
                         <div class="card-body">
                             <h5 class="card-title w-100 text-center fs-4">Bachillerato técnico</h5>
@@ -56,7 +65,10 @@
                     </article>
                 </div>
                 <div class="col-12 col-md-5 col-lg-3 p-2">
-                    <article class="card">
+                    <article class="card card-ver-mas">
+                        <a class="hover-ver-mas" href="./especializacion.html">
+                            <div class="text-ver-mas">Ver más</div>
+                        </a>
                         <img src="assets/img/formacion_especializacion.webp" class="card-img-top" loading="lazy">
                         <div class="card-body">
                             <h5 class="card-title w-100 text-center fs-4">Especialización</h5>
@@ -135,14 +147,14 @@
                     </div>
                     <div class="col-12 col-lg-6">
                         <label for="email" class="form-label">Correo electrónico:</label>
-                        <input type="email" name="email" id="email" class="form-control" placeholder="Correo electrónico" required>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Correo electrónico">
                     </div>
                     <div class="col-12 col-lg-6">
                         <label for="celular" class="form-label">Celular:</label>
-                        <input type="number" name="celular" id="celular" class="form-control" placeholder="Celular" required>
+                        <input type="number" name="celular" id="celular" class="form-control" placeholder="Celular">
                     </div>
                     <div class="col-12">
-                        <label for="curso" class="form-label">Curso al que entrará el estudiante:</label>
+                        <label for="curso" class="form-label">Espacio de formación:</label>
                         <select class="form-select" name="curso" id="curso">
                             <option value="" selected>Seleccionar</option>
                             <option value="1">Preescolar</option>
