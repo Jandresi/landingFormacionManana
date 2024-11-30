@@ -137,21 +137,30 @@
             </div>
         </section>
 
+        <section class="card fondo_azul_claro mb-3 text-center">
+            <div class="card-body fondo_azul_claro">
+                <h2>Especializaciones preferidas por los estudiantes</h2>
+                <div class="d-flex justify-content-center bg-white">
+                    <canvas id="chartEspecializaciones" height="400" width="500"></canvas>
+                </div>
+            </div>
+        </section>
+
         <section class="card fondo_azul_claro mb-3">
             <div class="card-body fondo_azul_claro">
                 <h2 class="mb-3 col-12">Déjanos contactarte</h2>
                 <form class="row g-3" onsubmit="submitContacto(event)">
                     <div class="col-12">
                         <label for="nombreTutor" class="form-label">Nombre del tutor o adulto a cargo:</label>
-                        <input type="text" name="nombreTutor" id="nombreTutor" class="form-control" placeholder="Nombre y apellido" required>
+                        <input type="text" name="nombreTutor" id="nombreTutor" class="form-control" placeholder="Pedro Rodríguez" required>
                     </div>
                     <div class="col-12 col-lg-6">
                         <label for="email" class="form-label">Correo electrónico:</label>
-                        <input type="email" name="email" id="email" class="form-control" placeholder="Correo electrónico">
+                        <input type="email" name="email" id="email" class="form-control" placeholder="correo@dominio.com">
                     </div>
                     <div class="col-12 col-lg-6">
                         <label for="celular" class="form-label">Celular:</label>
-                        <input type="number" name="celular" id="celular" class="form-control" placeholder="Celular">
+                        <input type="number" name="celular" id="celular" class="form-control" placeholder="310xxxxxxx">
                     </div>
                     <div class="col-12">
                         <label for="curso" class="form-label">Espacio de formación:</label>
@@ -186,6 +195,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="javascript/codigo.js"></script>
 </body>
 </html>
